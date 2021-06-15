@@ -1,0 +1,167 @@
+*  {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans','Roboto','Segoe UI','sans-serif';
+}
+
+nav{
+    background-color: #241e20;
+    height: 80px;
+    width: 100%;
+}
+
+#div_nav_container{
+    width: 50%;
+    margin: auto;
+}
+
+#logo_simbolo{
+    line-height: 80px;
+    height: 80px;
+    padding: 0 100;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.menu .li_menu{
+    display: inline-block;
+    line-height: 80px;}
+
+.menu .li_menu .a_menu{    
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.a_menu{
+    color: #f8f8f8;
+}
+
+#contate_nos{
+    margin-left: 20px;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    color: #f8f8f8;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Efeitos do Mouse*/
+.a_menu:hover{
+    color: #1e4080;
+}
+
+.a_menu:active{
+    color: #ad2164;
+}
+
+main{
+    background-color: #241e20f9;
+}
+
+
+@media (max-width: 1500px){
+
+
+
+    #div_nav_container{
+
+        width: 100%;
+        background-color: #102447;
+        transition: .5s;
+    }
+
+    #logo_simbolo{
+        padding-left: 50px;
+
+    }
+    .menu li a{
+        font-size: 16px;
+    }    
+}
+
+@media (max-width: 858px){
+
+    nav{
+        background-color: #241e20;
+        height: 50px;
+        width: 100%;
+    }
+
+    #logo_simbolo{
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 0;
+    }
+    
+    .checkbtn{
+        display: block;
+    }
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #0c1930f5;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+
+    .div_nav_container .menu .li_menu{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .menu .li_menu .a_menu{
+        font-size: 20px;
+        text-transform: uppercase;
+    }    
+
+
+    #contate_nos{
+        margin: 0;
+    }
+
+
+    .menu .li_menu{
+        display: block;
+    }
+     #div_nav_container{
+        position: fixed;            
+    }
+
+    #check:checked ~ #menu{
+
+        left: 0;
+    }
+
+
+
+
+
+
+}
+
+
+
