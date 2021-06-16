@@ -72,7 +72,8 @@ nav{
 }
 
 main{
-    background-color: #241e20f9;
+    width: 97%;
+    margin: auto;
 }
 
 
@@ -156,12 +157,301 @@ main{
         left: 0;
     }
 
-
-
+    #imagem{
+        background-position: bottom;
+        background-size: auto 100%;
+    }
 
 
 
 }
+
+/*main pagina*/
+
+#header_main{
+    margin: 0;
+    padding: 0;
+    height: 730px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#div_textura{
+    height: 175px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: url("img/textura_asfalto.jpg");
+    background-size: contain;
+    
+}
+
+
+
+#section_slogan{
+    height: 555px;
+    width: 100%;
+    position: relative;
+    background-image: url("img/carro_dentro.jpg");  
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+.titulo_site{
+    margin: auto;
+    color: #f8f8f8ef;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 5em;
+
+}
+
+.logotipo_chamativo{
+    height: 330px;
+    position: absolute;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+    
+
+}
+
+.container_box_servicos{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background-color: cornflowerblue;
+
+    width: 753px;
+    height: 184px;
+    bottom: -92px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+.container_box_servicos div{
+    display: inline-block;
+    position: relative;
+    width: 251px;
+    height: 184px;
+    margin: 0;
+
+    font-weight: bold;
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #121212;
+    text-align: center;
+    line-height: 1.4em;
+    letter-spacing: 1px;    
+}
+
+.container_box_servicos div p{
+    margin-top: 20px;
+}
+
+#box1{
+    background-color: #ffffff;
+    float: left;
+}
+
+#box2{
+    background-color: #ededed;
+}
+
+#box3{
+    float: right;
+    background-color: #d6d6d6;
+}
+
+.box_ico{
+    display: block;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    
+}
+
+#breve_resumo{
+    width: 100%;
+    height: 335px;
+    background-color: #ededed;
+    font-family: Helvetica, Arial, 'Lato';
+    color: #241e20;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#breve_resumo h3{
+    font-size: 40px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#breve_resumo p{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
+#breve_resumo button{
+    background-color: #ad2164;
+    color: #d6d6d6;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+#breve_resumo button:hover{
+    color: #b8909d;
+    transition: 0.5s;
+}
+
+#breve_resumo button:active{
+    color: #241e20;
+    transition: none;
+    border: solid #241e20;  
+}
+
+#div_convite{
+    width: 100%;
+    height: 335px;
+    background-color: #081122b4;
+    font-family: Helvetica, Arial, 'Lato';
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#div_convite h3{
+    font-size: 40px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#div_convite p{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
+#div_convite button{
+    background-color: #f8f8f8;
+    color: #1e4080;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+#div_convite button:hover{
+    color: #241e20;
+    transition: 0.5s;
+}
+
+#div_convite button:active{
+    transition: none;
+    border: solid #241e20;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#informacoes_finais{
+    width: 100%;
+    height: 335px;
+    background-color: #241e20d3;
+    font-family: Helvetica, Arial, 'Lato';
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#informacoes_finais h3{
+    font-size: 40px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#informacoes_finais p{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
+#informacoes_finais button{
+    background-color: #f8f8f8;
+    color: #1e4080;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+#informacoes_finais button:hover{
+    color: #241e20;
+    transition: 0.5s;
+}
+
+#informacoes_finais button:active{
+    transition: none;
+    border: solid #241e20;  
+}
+
+footer{
+    background-color: #241e20;
+    height: 80px;
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 
